@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-11-08T03:18:11.401070+00:00",
+  "timestamp": "2026-11-10T05:10:35.243203+00:00",
   "repo": "mikeyeakle-bot/super-duper-octo-enigma",
   "labels": [
     {
@@ -52,8 +52,64 @@
       "name": "wontfix",
       "description": "This will not be worked on",
       "color": "ffffff"
+    },
+    {
+      "name": "sonatype-guide",
+      "description": null,
+      "color": "ededed"
     }
   ],
   "issues": [],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOUtQ3OM8AAAABNsvo5A",
+      "title": "Add Sonatype Guide workflow for automated dependency updates",
+      "url": "https://github.com/mikeyeakle-bot/super-duper-octo-enigma/pull/1",
+      "state": "OPEN",
+      "author": "sonatype-guide",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "sonatype-guide"
+      ],
+      "body": "## What does this PR do?\n\nThis PR adds the Sonatype Guide GitHub Actions workflow to enable automated dependency updates and security fixes.\n\n### Features\n- Manual trigger via GitHub Actions UI\n- Security mode for fixing specific vulnerabilities\n- Automated PR creation with recommended updates\n\nLearn more: https://links.sonatype.com/products/guide/docs/agent-p\n\n---\n*This PR was automatically created by the Sonatype Guide GitHub App.*",
+      "createdAt": "2026-11-08T19:15:34Z",
+      "updatedAt": "2026-11-08T19:15:43Z",
+      "baseRepository": "mikeyeakle-bot/super-duper-octo-enigma",
+      "baseRefName": "main",
+      "baseRefOid": "a5df0e230a17f71932bff60b6f0759a153a56b43",
+      "headRepository": "mikeyeakle-bot/super-duper-octo-enigma",
+      "headRefName": "agp/setup-workflow",
+      "headRefOid": "aa82557227c119b406de8c64f02b424759795c6f",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "bolt-new-by-stackblitz",
+          "authorAssociation": "NONE",
+          "body": "<a href=\"https://stackblitz.com/~/github.com/mikeyeakle-bot/super-duper-octo-enigma/pull/1\"><img src=\"https://developer.stackblitz.com/img/review_pr_small.svg\" alt=\"Review PR in StackBlitz Codeflow\" align=\"left\" width=\"103\" height=\"20\" target=\"_blank\"></a> _Run & review this pull request in [StackBlitz Codeflow](https://stackblitz.com/~/github.com/mikeyeakle-bot/super-duper-octo-enigma/pull/1)._\n",
+          "createdAt": "2026-11-08T19:15:37Z",
+          "updatedAt": "2026-11-08T19:15:37Z"
+        },
+        {
+          "author": "strix-security",
+          "authorAssociation": "NONE",
+          "body": "<!-- strix:pr-review-billing-required -->\nStrix is installed on this repository, but we couldn't run this PR security review because this workspace's trial has ended. Add a card to resume code reviews [here](https://app.strix.ai/settings/billing).",
+          "createdAt": "2026-11-08T19:15:39Z",
+          "updatedAt": "2026-11-08T19:15:39Z"
+        },
+        {
+          "author": "coderabbitai",
+          "authorAssociation": "NONE",
+          "body": "<!-- coderabbit-ai-generated:v1 -->\n\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: skip review by coderabbit.ai -->\n\n> [!IMPORTANT]\n> ## Review skipped\n> \n> Bot user detected.\n> \n> To trigger a single review, invoke the `@coderabbitai review` command.\n> \n> <details>\n> <summary><strong><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://storage.googleapis.com/coderabbit_public_assets/review-comment-icons-v1/cog-dark.svg\"><img src=\"https://storage.googleapis.com/coderabbit_public_assets/review-comment-icons-v1/cog.svg\" width=\"16\" height=\"16\" align=\"absmiddle\" alt=\"\"></picture> Run configuration</strong></summary>\n> <dl>\n> <dd>\n> <br>\n> \n> - **Source mode**: Auto\n> - **Repository**: Unavailable\n> - **Branch**: Unavailable\n> - **File**: No configuration file from this repository applied\n> - **Commit**: Unavailable\n> - **Layers**: Organization UI\n> - **Review profile**: CHILL\n> - **Plan**: Advanced\n> - **Run ID**: `9b32c056-a24a-4b0c-9304-4d93dcdc6d99`\n> \n> </dd>\n> </dl>\n> </details>\n> \n> You can disable this status message by setting the `reviews.review_status` to `false` in the CodeRabbit configuration file.\n> \n> Use the checkbox below for a quick retry:\n> - [ ] <!-- {\"checkboxId\":\"e9bb8d72-00e8-4f67-9cb2-caf3b22574fe\"} --> Trigger review\n\n<!-- end of auto-generated comment: skip review by coderabbit.ai -->\n\n<!-- autopilot:start -->\n- [ ] <!-- {\"checkboxId\":\"2708ad07-9f24-4260-9c11-7dc76a49f2e3\"} --> <strong title=\"Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\">Autofix</strong> \u00b7 Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\n<!-- autopilot:end -->\n<!-- tips_start -->\n\n\n\nThanks for using [CodeRabbit](https://coderabbit.ai?utm_source=oss&utm_medium=github&utm_campaign=mikeyeakle-bot/super-duper-octo-enigma&utm_content=1)! It's free for OSS, and your support helps us grow. If you like it, consider giving us a shout-out.\n\n<details>\n<summary><strong>Share</strong></summary>\n<dl>\n<dd>\n<br>\n\n- [X](https://twitter.com/intent/tweet?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A&url=https%3A//coderabbit.ai)\n- [Mastodon](https://mastodon.social/share?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A%20https%3A%2F%2Fcoderabbit.ai)\n- [Reddit](https://www.reddit.com/submit?title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&text=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code.%20Check%20it%20out%3A%20https%3A//coderabbit.ai)\n- [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcoderabbit.ai&mini=true&title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&summary=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code)\n\n</dd>\n</dl>\n</details>\n\n<!-- tips_end -->",
+          "createdAt": "2026-11-08T19:15:43Z",
+          "updatedAt": "2026-11-08T19:15:43Z"
+        }
+      ],
+      "reviews": []
+    }
+  ]
 }
